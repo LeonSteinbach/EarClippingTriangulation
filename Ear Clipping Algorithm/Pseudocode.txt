@@ -1,0 +1,18 @@
+﻿Ear Clipping:
+	1. Dreieck aussuchen
+	2. Testen, ob keine andere Linie eine der drei Kanten schneidet.
+			Nein -> Dreieck abschneiden und von vorne anfangen
+			Ja -> Nächstes Dreieck versuchen
+	3. Falls das Polygon keine Punkte mehr enthält -> fertig.
+
+Dreieck abschneiden:
+	1. Dreieck in Array speichern
+	2. Polygon Knoten neu verbinden
+
+Polygon Datenstruktur:
+	1. Liste von allen Knoten
+	2. Jeder Knoten hat zwei Nachbarknoten (Linked List)
+
+Dreieck aussuchen:
+	1. Für jeden Knoten gibt es drei mögliche Dreiecke
+	2. Wähle ein Dreieck, welches ein Ohr ist.
